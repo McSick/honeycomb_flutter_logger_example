@@ -12,7 +12,7 @@ class HoneycombLogger {
     this.loadAPIKeys();
   }
   void loadAPIKeys() {
-    /* TODO: Implementation. This should load your apikey,dataset, and url from a backend server */
+    /* TODO: Implementation. Probably should send events to a backend server to forward instead of loading on the frontend */
     this.HONEYCOMB_APIKEY = Config.HONEYCOMB_APIKEY;
     this.HONEYCOMB_DATASET = Config.HONEYCOMB_DATASET;
     this.HONEYCOMB_URL = Config.HONEYCOMB_URL;
